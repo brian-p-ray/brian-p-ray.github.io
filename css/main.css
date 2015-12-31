@@ -53,6 +53,22 @@
 	font-style: normal;
 }
 
+/* Bootstrap overrides */
+.nav-tabs {
+	border-bottom: 1px solid #31b0d5;
+}
+.nav-tabs>li>a:hover {
+	color: #286090;
+	border-color: #eee #eee #31b0d5;
+}
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:focus,
+.nav-tabs>li.active>a:hover {
+	background: #31b0d5;
+	color: #286090;
+}
+
+/* generic */
 h1,
 h2,
 h3,
@@ -75,7 +91,6 @@ header h1 {
 	margin: 0;
 	padding: 0;
 	color: #286090;
-	text-align: center;
 }
 
 .subheader {
@@ -87,14 +102,19 @@ header h1 {
 .subheader h3 {
 	margin: 0;
 	padding: 0;
-	text-align: center;
 }
 
 footer {
 	background: #286090;
-	font-size: 20px;
+
+}
+footer p {
+	margin: 0;
+	color: #fff;
+	line-height: 28px;
 }
 footer a {
+	font-size: 20px;
 	color: #fff;
 }
 footer a:hover {
