@@ -25,8 +25,7 @@ $(document).ready(function() {
 	function animateOccupation() {
 		$('.occupationHeader').animate({'opacity': 0},250, function() {
 			setOccupation();
-		});
-		$('.occupationHeader').animate({'opacity': 1},250);
+		}).animate({'opacity': 1},250);
 	}
 	function setOccupation() {
 		var occupation = occupations[Math.floor(Math.random() * occupations.length)];

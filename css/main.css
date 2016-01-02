@@ -114,6 +114,7 @@ footer p {
 	line-height: 28px;
 }
 footer a {
+	margin-left: 5px;
 	font-size: 20px;
 	color: #fff;
 }
