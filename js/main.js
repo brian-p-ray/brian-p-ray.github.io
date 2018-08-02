@@ -1,4 +1,4 @@
-occupations = [
+var occupations = [
 	'associate dean',
 	'attorney',
 	'author',
